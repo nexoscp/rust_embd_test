@@ -1,4 +1,5 @@
 #![no_std]
+#![no_main]
 
 use cortex_m::{asm, peripheral::SCB};
 use cortex_m_rt::{entry, exception};
